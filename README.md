@@ -5,7 +5,7 @@ It prioritises ease of modification and reading, not formal correctness or user 
 ## Usage:
 - Review `circadiandesktopwallpapertheme.sh` to see roughly how it works.
 - Copy this folder to your desktop, call the folder `wallpapers`.
-- and install it to systemd with the `.service` file provided.
+- and install it to systemd with the `.service` file provided and start the service.
 - Modify `circadiandesktopwallpapertheme.sh` to your hearts content.
 
 
