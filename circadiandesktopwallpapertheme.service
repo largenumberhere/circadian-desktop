@@ -1,0 +1,10 @@
+[Unit]
+Description=Changes the user's background periodically per the time of day
+
+[Service]
+ExecStart=/home/rose/Desktop/wallpapers/circadiandesktopwallpapertheme.sh
+Restart=always
+WorkingDirectory=/home/rose/Desktop/wallpapers/
+
+[Install]
+WantedBy=default.target
